@@ -16,9 +16,9 @@ Your task is to have the infrastructure needed to deploy the application ready i
 7. All the instances should be kept safe behind relevant firewall configs.
 
 #### Bonus (Optional)
-1. For enabling high availability, it would be nice to have the EC2 servers set to autoscaling within the two AZ. This may warrant a load balancer.
+1. For enabling high availability, it would be nice to have the EC2 servers set to autoscaling within the two AZ. This may warrant a way to direct traffic between these autoscaled instances.
 2. Similarly, it would be nice to have an RDS standby in the other AZ.
-3. The team would ideally want the DBs to have one way access to the internet for auto-updates. They aren't sure how to go about doing it since the RDS DB instances shouldn't be public.
+3. The team would ideally want the DBs to have one way access to the Internet for auto-updates. They aren't sure how to go about doing it since the RDS DB instances shouldn't be public.
 
 ## Code
 
