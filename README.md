@@ -9,7 +9,7 @@ Your task is to have the infrastructure needed to deploy the application ready i
 ### Features
 1. The entire infrastructure should be in a new VPC.
 2. The application should be highly available. Therefore, we should be able to replicate the infrastructure (when logical) in two Availability Zones in the future (Hint: This is precisely what you need to do for the Bonus below!). You should setup the networking while keeping this end in mind.
-3. The backend team needs an AWS EC2 instance to serve as an application server. This should be accessible via the internet.
+3. The backend team needs an AWS EC2 instance to serve as an application server. This should be publicly accessible via the internet.
 4. They also require an RDS instance, but it should be hidden away from public access, with only the application EC2 instance having access to the RDS instance.
 5. The team would also need two copies of the same environment, a prod and a staging env.
 6. The team thinks they'd probably want to re-use the networking infrastructure for other future projects. They'd also like to re-use the database infrastructure for other applications in the future as well. You should write the CDK templates/code in a way that makes it easy to do this in the future.
