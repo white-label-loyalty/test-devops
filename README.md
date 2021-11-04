@@ -32,3 +32,6 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk deploy`      deploy this stack to your default AWS account/region
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
+
+## Submitting your code
+Please send a zip archive containing your code (without the node_modules directory) to webb at whitelabel-loyalty dot com.
